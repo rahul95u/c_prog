@@ -3,12 +3,13 @@
 int main()
 {
    char s[1000], r[1000];
-   int begin, end, count = 0;
+   int begin, end;
+   short count = 0;
  
    printf("Input a string\n");
    gets(s);
  
-   // Calculating string length
+   // Calculating string length using count
  
    while (s[count] != '\0')
       count++;
